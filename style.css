@@ -65,7 +65,7 @@ img {
   height: 6vw;
   width: 4vw;
   border-radius: 50%;
-  position: relativeS;
+  position: fixed;
   top: 10px; 
   right: 15px; 
   background-image: radial-gradient(#282C33, #282C33);
