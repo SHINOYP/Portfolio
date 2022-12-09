@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shino</title>
+    <link rel="icon" href="./img/box.svg" type="image/x-icon" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header class="sticky top-0 flex justify-between items-center mx-auto md:py-4 py-3 text-lg " style="max-width:1200px; z-index:10000 ;">
+        <div class="flex items-center">
+            <img src="./img/box.svg " class="px-3 " style=" width: 50px; height: 50px; z-index: 3000;" >
+            <p class="font-bold  text-white md:text-lg text-base" style="z-index: 3000;"> Shino </p> 
+        </div>
+        
+        <div class="flex hidden md:inline ">
+            <a href="./index.html" class="px-3 hover:text-white"><span style="color: rgb(126 34 206);"> #</span>home</a>
+            <a href="./projects.html" class="px-3  hover:text-white"><span style="color: rgb(126 34 206);"> #</span>works</a>
+            <a href="./about.html" class="px-3  text-white"><span style="color: rgb(126 34 206);"> #</span>about-me</a>
+            <a href="/contact.html" class="px-3  hover:text-white"><span style="color: rgb(126 34 206);"> #</span>contact</a>
+        </div>    
+            <div class="md:hidden">
+                <input type="checkbox" id="navi-toggle" class="checkbox" />
+                <label for="navi-toggle" class="button">
+                    <span class="icon">&nbsp;</span>
+                </label>
+                <div class="background">&nbsp;</div>
+
+                <!-- nav -->
+                <nav class="nav  ">
+                    <ul class="list">
+                    <li class="item "> <a href="./index.html" class="px-3 link hover:border-x-4 py-2 my-2"><span style="color: rgb(126 34 206);"> #</span>home</a></li>
+                    <li class="item"> <a href="./projects.html" class="px-3  link hover:border-x-4 py-2 my-2"><span style="color: rgb(126 34 206);"> #</span>works</a> </li>
+                    <li class="item"> <a href="./about.html" class="px-3   link hover:border-x-4 py-2 my-2 text-white"><span style="color: rgb(126 34 206);"> #</span>about-me</a> </li>
+                    <li class="item"> <a href="./contact.html" class="px-3 link hover:border-x-4 py-2 my-2"><span style="color: rgb(126 34 206);"> #</span>contact</a> </li>
+                    </ul>
+                    <div class="absolute flex items-center align-center" style="top: 680px; left: 110px;">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shinoyshinoo@gmail.com"class=" mx-2"><img src="./img/gmail.svg"> </a>
+                        <a href="https://discord.com/login"><img src="./img/discord.svg" class="mx-2" ></a>
+                        <a href="https://github.com/Shinoyp"><img src="./img/git.svg" class="mx-2"></a>
+                        <a href="https://www.instagram.com/shinoy._.p/"><img src="./img/instagram.svg" class="mx-2"></a>
+                    </div>
+                </nav>
+            </div>
+        
+    </header>
+    <section class=" flex  flex-col md:flex-row justify-between mx-auto " style="max-width:1200px ;">
+        <div class="">
+                <h1 class=" md:flex-col  mx-3 my-2" style="max-width:800px ;"> who am i?</h1>
+                <h1 class=" md:flex-col  mx-3 " style="max-width:800px ;"> My name is shinoy,</h1>
+                <p class=" text-xs md:text-base mx-3 " style="max-width:800px ;">
+                    
+                    I’m a self-taught front-end developer based in kerala,India.
+                    I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
+                    As i was looking for a domain to chose i stumpled upon fullstack we development,in which iam pretty intereted in
+                    .Trying to transform my creativity and knoledge into a website.
+                    I always strive to learn about the newest technologies and frameworks.
+                    Iam trying to work my way upto a full stack developer.
+                    <br><br>As for my educational qualifcation iam Currently pursuing a diploma in computer engineering , i'm Currently
+                    at my final year of college.Hoping to land on a job as soon as finishing college.
+                </p>
+        </div>
+    <div class="m-20 md:m-10 ">
+        <img src="./img/bg-2.svg" alt="">
+        
+    </div>
+    </section>
+    <section class=" mx-auto " style="max-width:1200px;">
+        <div class=" flex justify-between ml-4  mt-6  ">
+                <div class="">
+                    <h1 class="md:text-2xl text-lg font-semibold " >#Contacts<span style="color: rgb(126 34 206);"> -----------</span> </h1>
+                </div>
+            </div>
+
+        <div class="flex  flex-col md:flex-row justify-between mx-auto" style="max-width: 1200px;">
+            <div class="mt-10  ml-4  font-semibold ">           
+           
+            <p class="text-sm md:text-base">I’m interested in Job opportunities including freelance . However, if you have other request or question, don’t hesitate to contact me</p>
+
+            </div>
+            <div class="md:m-10  m-4">
+                <div class=" w-64 h-32 border  md:m-2 pic hide " style="z-index:10 ;"> 
+                    <p class=" font-bold mx-4 text-white text-sm md:text-base">Message me here</p>
+                    <img src="./img/gmail.svg" class="m-2 inline hover:text-white" onclick=""><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shinoyshinoo@gmail.com"class="hover:text-white">shinoyshinoo@gmail.com </a>
+                    <img src="./img/discord.svg" class="m-2 inline " onclick=""><a href="https://discord.com/login" class="hover:text-white">falcon #0900</a>
+
+                </div>
+            </div>   
+        </div> 
+    </section>       
+    <footer class="sticky flex justify-between align-center mx-auto py-7 text-lg border-t-2 border-t-white " style="max-width:1200px"> 
+        <div class="md:ml-10 ml-2 ">
+            <small class="text-xs">&copy; Copyright 2022,Shino</small> 
+        </div>
+        <div class="flex">
+            <a href="https://discord.com/login"><img src="./img/discord.svg" class="mr-6 mt-2" ></a>
+            <a href="https://github.com/Shinoyp"><img src="./img/git.svg" class="mr-6"></a>
+        </div>
+    </footer> 
+
+    
+</body>
+</html>
